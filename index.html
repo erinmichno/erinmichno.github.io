@@ -32,7 +32,22 @@ var trace1 = {
 
 
 var data = [trace1];
-var layout = {margin: {
+var layout = {
+  title: 'SVD Compression',
+  width: 800,
+  height: 800,
+  xaxis: {
+    title: 'Type',
+    showgrid: true,
+    zeroline: false
+  },
+  yaxis: {
+    title: 'Time',
+    showline: true
+  },
+  zaxis: { title: 'Error',
+  showline: true},
+margin: {
 	l: 0,
 	r: 0,
 	b: 0,
