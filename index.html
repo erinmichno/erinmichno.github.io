@@ -17,6 +17,7 @@ var xData =unpack(rows, 'x2')
 var yData = unpack(rows, 'y2')
 var zData = unpack(rows, 'z2')
 var trace1 = {
+	 name: 'SVD Set',
 	x:xData, y: yData, z: zData,
 	mode: 'markers',
 	marker: {
@@ -24,7 +25,7 @@ var trace1 = {
     colorscale: 'Jet',
 		size: 12,
 		line: {
-		color: zData,
+		color: xData,
 		width: 0.25},
 		opacity: 0.9},
 	type: 'scatter3d'
