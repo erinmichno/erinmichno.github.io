@@ -33,27 +33,23 @@ var trace1 = {
 
 var data = [trace1];
 var layout = {
-  title: 'SVD Compression',
-  width: 800,
-  height: 800,
-  xaxis: {
-    title: 'Type',
+  title:'SVD Compression',
+  width:800,
+  height:600,
+  xaxis:{
+    title:'Type',
     showgrid: true,
     zeroline: false
   },
-  yaxis: {
-    title: 'Time',
+  yaxis:{
+    title:'Time',
     showline: true
   },
   zaxis: { title: 'Error',
-  showline: true},
-margin: {
-	l: 0,
-	r: 0,
-	b: 0,
-	t: 0
-  },
-             };
+  showline: true}
+	
+
+   };
 Plotly.newPlot('myDiv', data, layout);
 
 });
