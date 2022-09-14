@@ -9,13 +9,13 @@
 <body>
 	<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
   <script>
-    d3.csv('https://raw.githubusercontent.com/erinmichno/FridayDirectX/master/testData.csv', function(err, rows){
+    d3.csv('https://raw.githubusercontent.com/erinmichno/erinmichno.github.io/main/data4.csv', function(err, rows){
 function unpack(rows, key) {
 	return rows.map(function(row)
 	{ return row[key]; });}
-var xData =unpack(rows, 'x2')
-var yData = unpack(rows, 'y2')
-var zData = unpack(rows, 'z2')
+var xData =unpack(rows, 'Frombenius')
+var yData = unpack(rows, 'MaxError')
+var zData = unpack(rows, 'Timing')
 var trace1 = {
 	 name: 'SVD Set',
 	x:xData, y: yData, z: zData,
