@@ -1,4 +1,4 @@
-Agent_Num,Pack_Type,Rank,dimM,dimN,Sim_Type,SVD Method,Spatial_Size,Timing, MeanError, MaxError,Frobenius,Total_Raw,ID
+Agent_Num,Pack_Type,Rank,dimM,dimN,Sim_Type,SVDMethod,Spatial_Size,y2, MeanError, z2,Frobenius,Total_Raw,x2
 1048576,0,16,65536,64,5,0,2048,12.9675,0.0000000000,0.0000000000,0.0000000000,3,1
 1048576,0,64,16384,256,5,0,2048,25.0674,0.0000000000,0.0000000000,0.0000000000,3,2
 1048576,0,32,32768,128,5,0,2048,27.3587,0.0000000000,0.0000000000,0.0000000000,3,3
